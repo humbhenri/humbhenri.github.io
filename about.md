@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Olá. Meu nome é Humberto Pinheiro, trabalho com análise de sistemas e estou na área há mais de 10 anos. Nesse blog vou escrever algumas coisas que tenho interesse ou soluções de alguns perrengues que já passei relacionado à tecnologia.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Você pode encontrar informações sobre mim aqui:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+[GitHub](https://github.com/humbhenri)
 
-
-[jekyll-organization]: https://github.com/jekyll
+[Linkedin](https://www.linkedin.com/in/humberto-pinheiro-47153023/)
