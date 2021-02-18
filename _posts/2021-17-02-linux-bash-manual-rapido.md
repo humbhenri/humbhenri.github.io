@@ -85,6 +85,22 @@ Criará o arquivo `a.txt` dentro do diretório `home` do usuário.
 user@computer:~$ cat a.txt
 ```
 
+Para mostrar só parte do arquivo podemos usar o `tail` ou o `head`.
+O exemplo abaixo mostra as 10 primeiras linhas do arquivo `a.txt`:
+```
+user@computer:~$ head a.txt
+```
+Para mostrar um número diferente de linhas podemos usar a opção `-n`:
+O exemplo abaixo mostra as 20 primeiras linhas:
+```
+user@computer:~$ head -n 20 a.txt
+```
+O exemplo a seguir mostra as últimas 10 linhas do arquivo:
+```
+user@computer:~$ tail a.txt
+```
+O `tail` também aceita o parâmetro `-n` para especificar o número de linhas a serem mostradas.
+
 `cp` é usado para copiar arquivos ou diretórios. Exemplos:
 
 Para copiar um arquivo para outro diretório
