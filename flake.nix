@@ -1,0 +1,32 @@
+
+{
+  description = "Ambiente de desenvolvimento para site Jekyll";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+  };
+
+  outputs = { self, nixpkgs }:
+    let
+      system = "x86_64-linux";
+      pkgs = import nixpkgs { inherit system; };
+    in
+    {
+      devShells.${system}.default = pkgs.mkShell {
+        packages = with pkgs; [
+          ruby
+          bundler
+          git
+          gnumake
+          gcc
+        ];
+
+        shellHook = ''
+          echo "Ambiente Jekyll/Ruby carregado"
+          ruby --version
+          bundle --version
+        '';
+      };
+    };
+}
+
