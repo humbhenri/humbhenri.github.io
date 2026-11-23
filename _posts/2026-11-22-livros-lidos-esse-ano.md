@@ -39,6 +39,12 @@ científica e já leu os livros anteriores.
 ### 100 Anos de Solidão
 <small>Gabriel García Márquez</small>
 
+{% include image.html
+path="/assets/img/thumbs/29517118.jpg.jpg"
+alt="100 anos"
+%}
+
+
 234 páginas. Melhor livro lido esse ano, dei nota 5/5.  Me interessei
 quando vi a primeira temporada da série da Netflix, sobre esse livro.
 Terminei de ver a série esse ano, gostei tanto que fui ler o livro.
