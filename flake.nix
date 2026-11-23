@@ -19,6 +19,9 @@
           git
           gnumake
           gcc
+          libwebp
+          libavif
+          imagemagick
         ];
 
         shellHook = ''
