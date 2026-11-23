@@ -1,8 +1,14 @@
 <picture>
-  <source srcset="{{ include.path }}.avif" type="image/avif">
-  <source srcset="{{ include.path }}.webp" type="image/webp">
+  <source
+    srcset="{{ include.path | append: '.avif' | relative_url }}"
+    type="image/avif">
 
-  <img src="{{ include.path }}"
-       alt="{{ include.alt }}"
-       loading="lazy">
+  <source
+    srcset="{{ include.path | append: '.webp' | relative_url }}"
+    type="image/webp">
+
+  <img
+    src="{{ include.path | relative_url }}"
+    alt="{{ include.alt }}"
+    loading="lazy">
 </picture>
