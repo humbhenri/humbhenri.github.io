@@ -40,7 +40,7 @@ científica e já leu os livros anteriores.
 <small>Gabriel García Márquez</small>
 
 {% include image.html
-path="/assets/img/thumbs/29517118.jpg.jpg"
+path="/assets/img/thumbs/29517118.jpg"
 alt="100 anos"
 %}
 
